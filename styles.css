@@ -1,0 +1,82 @@
+.father {
+    display: flex;
+    width: 800px; 
+    height: 800px;
+    border: 10px solid palevioletred;
+}
+
+.children {
+    height: 300px;
+}
+
+.children-1 {
+    background: black;
+    width: 300px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.children-2 {
+    background: peru;
+    width: 300px;
+    align-self: flex-end;
+}
+
+.children-3 {
+    background: orchid;
+    width: 300px;
+    align-self: stretch;
+
+}
+.flex-container {
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    margin: 10px;
+  }
+
+  .box-1{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+.box-5{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+}
+.box-6{
+    width: 100px;
+    height: 100px;
+    background: purple;
+}
+.box-7{
+    width: 100px;
+    height: 100px;
+    background: peru;
+}
+
+
+.flex {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+}
